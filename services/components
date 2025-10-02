@@ -1,0 +1,16 @@
+import React from 'react';
+
+const Header: React.FC = () => {
+  return (
+    <header className="text-center py-8 px-4">
+      <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-sky-400 to-blue-500 text-transparent bg-clip-text mb-2">
+        AI Domain Finder
+      </h1>
+      <p className="text-slate-400 text-lg">
+        Discover, Value, and Secure the Perfect Domain for Your Next Big Idea
+      </p>
+    </header>
+  );
+};
+
+export default Header;
